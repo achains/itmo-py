@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytexhwpy"
+version = "0.2.0"
+description = "Python HW"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "achains", email = "achains@example.com"}
+]
+requires-python = ">=3.8"
+keywords = ["latex"]
